@@ -1,6 +1,6 @@
-# Mysterious Forest
+# Easy eye
 
-Sublime Text 3 Color scheme that comfortable for eye.
+Sublime Text 3 Color Scheme that comfortable for eye.
 
 ## Installation
 
