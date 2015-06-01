@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Ratchagarn Naewbuntad</string>
+  <key>settings</key>
+  <array>
+
+    <!-- START: basic setting -->
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#091919</string>
+
+        <key>caret</key>
+        <string>#FFF176</string>
+
+        <key>foreground</key>
+        <string>#E0E0E0</string>
+
+        <key>invisibles</key>
+        <string>#424242</string>
+
+        <key>lineHighlight</key>
+        <string>#37474F</string>
+
+        <key>selection</key>
+        <string>#C6282899</string>
+
+        <key>selectionBorder</key>
+        <string>#D50000</string>
+
+      </dict>
+    </dict>
+    <!-- END: basic setting -->
+
+    <!-- START: global syntax -->
+    <dict>
+      <key>name</key>
+      <string>Comment</string>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#546E7A</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>String</string>
+      <key>scope</key>
+      <string>string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#BCAAA4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Number</string>
+      <key>scope</key>
+      <string>constant</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFAB91</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Number</string>
+      <key>scope</key>
+      <string>constant.numeric</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Built-in constant</string>
+      <key>scope</key>
+      <string>constant.language</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>User-defined constant</string>
+      <key>scope</key>
+      <string>constant.character, constant.other</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4DB6AC</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>keyword</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#F06292</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>keyword.operator</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#81C784</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Storage</string>
+      <key>scope</key>
+      <string>storage</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#B39DDB</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Storage</string>
+      <key>scope</key>
+      <string>storage.type.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF9C4</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Class name</string>
+      <key>scope</key>
+      <string>entity.name</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4DB6AC</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Function name</string>
+      <key>scope</key>
+      <string>entity.name.type</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#4DB6AC</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Library function</string>
+      <key>scope</key>
+      <string>support.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFAB91</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Variable</string>
+      <key>scope</key>
+      <string>variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#03A9F4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Invalid</string>
+      <key>scope</key>
+      <string>invalid</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#660000</string>
+        <key>foreground</key>
+        <string>red</string>
+      </dict>
+    </dict>
+    <!-- END: global syntax -->
+
+
+    <!-- START: HTML - property -->
+    <dict>
+      <key>name</key>
+      <string>HTML Doc type</string>
+      <key>scope</key>
+      <string>meta.tag.sgml.doctype.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#81C784</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Tag</string>
+      <key>scope</key>
+      <string>entity.name.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00ACC1</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>html.property</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B39DDB</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>ID</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.id</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C62828</string>
+      </dict>
+    </dict>
+    <!-- END: HTML - property -->
+
+     <!-- START: CSS -->
+    <dict>
+      <key>name</key>
+      <string>CSS tag name</string>
+      <key>scope</key>
+      <string>entity.name.tag.css</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4DB6AC</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>CSS property name</string>
+      <key>scope</key>
+      <string>support.type.property-name</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#BCAAA4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>CSS constant value</string>
+      <key>scope</key>
+      <string>support.constant.property-value</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFAB91</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>CSS class</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.class</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#03A9F4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>CSS pseudo</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.pseudo-element</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#E1BEE7</string>
+      </dict>
+    </dict>
+    <!-- END: CSS -->
+
+    <!-- START: JavaScript -->
+    <dict>
+      <key>name</key>
+      <string>Object this</string>
+      <key>scope</key>
+      <string>variable.language.this</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C62828</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Object DOM</string>
+      <key>scope</key>
+      <string>support.type.object.dom.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F06292</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Function parameter</string>
+      <key>scope</key>
+      <string>variable.parameter.function</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#42424266</string>
+      </dict>
+    </dict>
+    <!-- END: JavaScript -->
+
+    <!-- START: JSON -->
+    <dict>
+      <key>name</key>
+      <string>JSON property</string>
+      <key>scope</key>
+      <string>constant.other.object.key.js string.unquoted.label</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#42424266</string>
+        <key>foreground</key>
+        <string>#4DB6AC</string>
+      </dict>
+    </dict>
+    <!-- END: JSON -->
+
+
+    <!-- START: [plugin] brackethighlighter -->
+    <dict>
+      <key>name</key>
+      <string>Bracket Tag</string>
+      <key>scope</key>
+      <string>brackethighlighter.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF176</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Bracket Curly</string>
+      <key>scope</key>
+      <string>brackethighlighter.curly</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF176</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Bracket Round</string>
+      <key>scope</key>
+      <string>brackethighlighter.round</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF176</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Bracket Square</string>
+      <key>scope</key>
+      <string>brackethighlighter.square</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF176</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Bracket Angle</string>
+      <key>scope</key>
+      <string>brackethighlighter.angle</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF176</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Bracket Quote</string>
+      <key>scope</key>
+      <string>brackethighlighter.quote</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF176</string>
+      </dict>
+    </dict>
+    <!-- END: [plugin] brackethighlighter -->
+
+    <!-- START: [plugin] GitGutter -->
+    <dict>
+      <key>name</key>
+      <string>GitGutter deleted</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F06292</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter inserted</string>
+      <key>scope</key>
+      <string>markup.inserted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#81C784</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter changed</string>
+      <key>scope</key>
+      <string>markup.changed.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF176</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter ignored</string>
+      <key>scope</key>
+      <string>markup.ignored.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF176</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter untracked</string>
+      <key>scope</key>
+      <string>markup.untracked.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#BCAAA4</string>
+      </dict>
+    </dict>
+    <!-- END: [plugin] GitGutter -->
+
+  </array>
+  <key>uuid</key>
+  <string>15272196-3E20-4D18-B047-18B6B13DC50E</string>
+  <key>semanticClass</key>
+  <string>theme.dark.mysterious-forest</string>
+</dict>
+</plist>
