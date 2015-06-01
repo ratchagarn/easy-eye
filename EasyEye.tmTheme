@@ -209,9 +209,9 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#660000</string>
+        <string>#C62828</string>
         <key>foreground</key>
-        <string>red</string>
+        <string>#FFFFFF</string>
       </dict>
     </dict>
     <!-- END: global syntax -->
@@ -226,7 +226,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#81C784</string>
+        <string>#F06292</string>
       </dict>
     </dict>
     <dict>
@@ -242,13 +242,24 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>html.string</string>
+      <key>scope</key>
+      <string>string.quoted.double.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#81C784</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>html.property</string>
       <key>scope</key>
       <string>entity.other.attribute-name</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#B39DDB</string>
+        <string>#FFCC80</string>
       </dict>
     </dict>
     <dict>
