@@ -309,6 +309,17 @@
         <string>#FFAB91</string>
       </dict>
     </dict>
+    <!-- <dict>
+      <key>name</key>
+      <string>CSS id</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.id</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C62828</string>
+      </dict>
+    </dict> -->
     <dict>
       <key>name</key>
       <string>CSS class</string>
@@ -367,12 +378,9 @@
         <string>#42424266</string>
       </dict>
     </dict>
-    <!-- END: JavaScript -->
-
-    <!-- START: JSON -->
     <dict>
       <key>name</key>
-      <string>JSON property</string>
+      <string>JavaScript JSON property</string>
       <key>scope</key>
       <string>constant.other.object.key.js string.unquoted.label</string>
       <key>settings</key>
@@ -383,7 +391,75 @@
         <string>#4DB6AC</string>
       </dict>
     </dict>
+    <!-- END: JavaScript -->
+
+    <!--
+      meta.structure.dictionary.json
+      meta.structure.dictionary.value.json
+    -->
+
+
+    <!-- START: JSON -->
+    <dict>
+      <key>name</key>
+      <string>JSON property</string>
+      <key>scope</key>
+      <string>meta.structure.dictionary.json string.quoted.double.json</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#03A9F4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JSON value</string>
+      <key>scope</key>
+      <string>source.json meta.structure.dictionary.value.json string.quoted.double.json</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B39DDB</string>
+      </dict>
+    </dict>
     <!-- END: JSON -->
+
+
+    <!-- START: JADE -->
+    <dict>
+      <key>name</key>
+      <string>Jade tag</string>
+      <key>scope</key>
+      <string>entity.name.tag.jade</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B39DDB</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Jade id</string>
+      <key>scope</key>
+      <string>meta.tag.attribute.id.jade</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C62828</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Jade class</string>
+      <key>scope</key>
+      <string>meta.tag.attribute.class.jade</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#03A9F4</string>
+      </dict>
+    </dict>
+    <!-- END: JADE -->
 
 
     <!-- START: [plugin] brackethighlighter -->
