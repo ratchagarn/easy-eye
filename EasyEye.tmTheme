@@ -391,6 +391,28 @@
         <string>#4DB6AC</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>JavaScript Regular expression context</string>
+      <key>scope</key>
+      <string>string.regexp.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F06292</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JavaScript Regular expression rule</string>
+      <key>scope</key>
+      <string>constant.other.character-class.escape.backslash.regexp</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFF176</string>
+      </dict>
+    </dict>
     <!-- END: JavaScript -->
 
     <!--
@@ -460,6 +482,134 @@
       </dict>
     </dict>
     <!-- END: JADE -->
+
+
+    <!-- START: STYLUS -->
+    <dict>
+      <key>name</key>
+      <string>Stylus - variable</string>
+      <key>scope</key>
+      <string>source.stylus variable.other.stylus</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D50000</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Stylus - variable other</string>
+      <key>scope</key>
+      <string>source.stylus variable.other.property.stylus</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D50000</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Stylus - value</string>
+      <key>scope</key>
+      <string>source.stylus constant.property-value.stylus</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4CAF50</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Stylus - number</string>
+      <key>scope</key>
+      <string>source.stylus constant.numeric.stylus</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4CAF50</string>
+      </dict>
+    </dict>
+
+    <!-- END: STYLUS -->
+
+
+    <!-- START: PHP - Blade -->
+    <dict>
+      <key>name</key>
+      <string>PHP Blade - tag</string>
+      <key>scope</key>
+      <string>text.html.laravel-blade entity.name.tag.laravel-blade</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F06292</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>PHP Blade - function call</string>
+      <key>scope</key>
+      <string>text.html.laravel-blade meta.function-call.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFAB91</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>PHP Blade - support class</string>
+      <key>scope</key>
+      <string>text.html.laravel-blade support.class.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#C62828</string>
+      </dict>
+    </dict>
+
+    <!-- <dict>
+      <key>name</key>
+      <string>PHP Blade - function call</string>
+      <key>scope</key>
+      <string>text.html.laravel-blade meta.function-call.static.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFAB91</string>
+      </dict>
+    </dict> -->
+
+    <dict>
+      <key>name</key>
+      <string>PHP Blade - support constant</string>
+      <key>scope</key>
+      <string>text.html.laravel-blade support.constant.laravel-blade</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#E1BEE7</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>PHP Blade - keyword operator</string>
+      <key>scope</key>
+      <string>text.html.laravel-blade keyword.operator.key.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#E1BEE7</string>
+      </dict>
+    </dict>
+
+    <!-- END: PHP - Blade -->
 
 
     <!-- START: [plugin] brackethighlighter -->
